@@ -1,9 +1,9 @@
 import React from "react";
 import MainHeader from "../MainHeader";
 import NavLinks from "../navigation/NavLinks";
+import navMesh from "../../../../assets/images/png/Layer 2 copy.png";
 
-
-import "./main-nav.scss"
+import "./main-nav.scss";
 
 const MainNav = () => {
   return (
@@ -17,6 +17,8 @@ const MainNav = () => {
         <span></span>
         <span></span>
       </div>
+
+      <img src={navMesh} alt="nav-mesh" className="navigation__dotted-mesh" />
 
       <nav className="navigation__header-nav">
         <NavLinks />

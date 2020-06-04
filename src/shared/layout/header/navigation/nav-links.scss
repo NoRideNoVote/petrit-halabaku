@@ -1,7 +1,7 @@
 .navigation-links {
   list-style: none;
   margin: 0;
-  padding: 0 0 2em 0;
+  // padding: 0 0 2em 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -10,13 +10,14 @@
 }
 
 .navigation__item {
-  min-width: 25%;
+  max-width: 7rem;
+  width: 7rem;
   height: inherit;
-  margin: 0 30px;
+  padding: 0 10px;
   font-family: var(--poppinsFont);
   font-weight: var(--medium);
   font-size: 22px;
-  text-align:center;
+  text-align: center;
   transition: all 350ms;
   transition-delay: 0s;
   &:hover {
@@ -29,6 +30,19 @@
   height: inherit;
   border: none;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
+}
+
+/* ----------------------------- mesh decoration ---------------------------- */
+.navigation__dotted-mesh {
+  width: 30%;
+  // height: 150%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  padding: 0 2rem;
+  // display: flex;
+  // flex: 0 1 30%;
+  z-index: 2;
 }
