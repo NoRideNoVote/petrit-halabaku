@@ -5,7 +5,7 @@ import "./main-header.scss";
 
 const MainHeader = (props) => {
   return (
-    <Container fluid >
+    <Container  >
       <header id="main-header">{props.children}</header>
     </Container>
   );

@@ -6,42 +6,42 @@
     {
       "src": "/icon/favicon-16x16.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "16x16"
     },
     {
       "src": "/icon/favicon-32x32.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "32x32"
     },
     {
       "src": "/icon/favicon-60x60.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "60x60"
     },
     {
       "src": "/icon/favicon-76x76.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "76x76"
     },
     {
       "src": "/icon/favicon-120x120.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "120x120"
     },
     {
       "src": "/icon/favicon-144x144.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "144x144"
     },
     {
       "src": "/icon/favicon-152x152.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "152x152"
     },
     {
       "src": "/icon/favicon-180x180.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "180x180"
     }
   ],
   "start_url": ".",

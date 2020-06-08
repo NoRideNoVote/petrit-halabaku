@@ -1,4 +1,4 @@
-$home-name-font: 150px;
+$home-name-font: 140px;
 $home-title-font: 41px;
 $home-description-font: 26px;
 $home-social-font: 30px;
@@ -10,7 +10,7 @@ $home-social-font: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //   margin-top: 100px;
+  margin-top: 50px;
   p {
     margin: 0;
   }
@@ -26,29 +26,31 @@ $home-social-font: 30px;
 /* ------------------------------ content left ------------------------------ */
 
 .home__content {
-  display: inherit;
+  // max-width: 50%;
+  position: relative;
+  display: flex;
   flex-direction: column;
-  flex: 0 1 50%;
-  max-width: 50%;
+  // flex: 0 1 50%;
   z-index: 5;
 }
 .home__content-title {
   width: 100%;
   font-size: $home-title-font;
-  line-height: $home-title-font * 1.03;
+  line-height: $home-title-font * 1.02;
   font-weight: var(--light);
 }
 .home__content-name {
   width: 100%;
   font-size: $home-name-font;
-  line-height: $home-name-font * 1.03;
+  line-height: $home-name-font * 1.02;
   font-weight: var(--bold);
+  z-index: 2;
 }
 
 .home__content-description {
   width: 100%;
   font-size: $home-description-font;
-  line-height: $home-description-font * 1.03;
+  line-height: $home-description-font * 1.02;
   font-weight: var(--light);
 }
 .home__social {
@@ -61,7 +63,7 @@ $home-social-font: 30px;
   font-family: var(--ralewayFont);
   font-weight: var(--regular);
   font-size: $home-social-font;
-  line-height: $home-social-font * 1.03;
+  line-height: $home-social-font * 1.02;
 }
 .home__content-icons {
   width: 100%;
@@ -83,11 +85,16 @@ $home-social-font: 30px;
 .home__content-icons li a:nth-child(3) {
   background-image: url("../../assets/images/svg/insta.svg");
   background-repeat: no-repeat;
+  img {
+    width: 100%;
+  }
 }
+
 .home__content-buttons {
   width: 100%;
-  display: flex;
+  // display: flex;
   justify-content: center;
+  z-index: inherit;
 }
 .home__content-buttons button {
   width: 200px;
@@ -97,11 +104,11 @@ $home-social-font: 30px;
   font-weight: var(--regular);
   padding: 1rem 0;
   border-radius: 60px;
-  margin-top: 70px;
-  margin-left: 15px;
-  margin-right: 15px;
   background: transparent;
 
+  &:last-child {
+    margin: 0 30px;
+  }
   a {
     display: inline-block;
     width: 100%;
@@ -117,6 +124,7 @@ $home-social-font: 30px;
   display: inherit;
   flex: 0 1 50%;
   justify-content: flex-end;
+  transform: translate(6rem, -6rem);
 }
 .home__image img {
   width: 100%;
